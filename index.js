@@ -39,7 +39,7 @@ setInterval(condition, 1000 * 60 * 60 * 24);
 
 
 const checkstatus = async () => {
-  // authenticate with cloudflare access token
+  // authenticate with Cloudflare access token
   const auth = {
     headers: {
       'CF-Access-Client-Id': CLOUDFLARE_ID,
